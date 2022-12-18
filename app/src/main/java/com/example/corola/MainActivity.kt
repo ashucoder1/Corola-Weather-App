@@ -19,7 +19,7 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
     var CITY:String="Delhi"
-    val API:String="245d97b22a3d9c81c8ec2550ab02b11d"
+    val API:String="${Your API key}"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         override fun doInBackground(vararg p0: String?): String? {
             var response:String?
             try {
-                response= URL("https://api.openweathermap.org/data/2.5/weather?q=$CITY&appid=245d97b22a3d9c81c8ec2550ab02b11d")
+                response= URL("https://api.openweathermap.org/data/2.5/weather?q=$CITY&appid=$API")
                     .readText(Charsets.UTF_8)
             }
             catch (e: Exception)
