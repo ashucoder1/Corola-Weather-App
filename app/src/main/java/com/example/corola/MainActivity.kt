@@ -118,7 +118,6 @@ class MainActivity : AppCompatActivity() {
                 findViewById<LottieAnimationView >(R.id.loader).visibility=View.GONE
 
             }
-
         }
     }
 }
