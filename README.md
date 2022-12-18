@@ -1,5 +1,6 @@
 # Corola-Weather-App😄<br>
 OpenWeatherOrg Api😎<br>
+Login to their website and Generate your own API key.<br>🙃
 Lottie Animations😘<br>
 Kotlin😕😕<br><br>
 
